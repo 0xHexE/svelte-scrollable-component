@@ -27,8 +27,8 @@
     "index.js",
     "index.mjs.css"
   ],
-  "description": "*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*",
-  "version": "1.0.2",
+  "description": "Simple custom components for scrollable cards",
+  "version": "1.0.3",
   "dependencies": {
     "@material/fab": "^2.1.1"
   },
