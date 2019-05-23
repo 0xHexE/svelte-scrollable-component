@@ -12,3 +12,6 @@ npm i svelte-scrollable-card --save
 
 ## Over CDN
 
+```
+https://unpkg.com/svelte-scrollable-card@1.0.3/index.js
+```
