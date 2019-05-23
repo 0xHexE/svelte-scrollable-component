@@ -28,7 +28,7 @@
     "index.mjs.css"
   ],
   "description": "Simple custom components for scrollable cards",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "dependencies": {
     "@material/fab": "^2.1.1"
   },

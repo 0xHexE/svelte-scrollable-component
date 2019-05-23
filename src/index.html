@@ -10,12 +10,18 @@
     onMount(() => {
         left = list.scrollLeft;
 
-        window.addEventListener('resize', () => {
-            if (left !== list.scrollLeft) {
-                left = list.scrollLeft;
-            }
-        });
+        window.addEventListener('resize', updateLeft);
     });
+
+    onDestroy(() => {
+        window.removeEventListener('resize', updateLeft);
+    });
+
+    function updateLeft() {
+        if (left !== list.scrollLeft) {
+            left = list.scrollLeft;
+        }
+    }
 
     const myInterval = setInterval(() => {
         if (left !== list.scrollLeft) {
