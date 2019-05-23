@@ -1,5 +1,5 @@
 {
-  "name": "SvelteComponent",
+  "name": "svelte-scrollable-card",
   "svelte": "src/index.html",
   "module": "index.mjs",
   "license": "MIT",
@@ -10,7 +10,12 @@
   },
   "devDependencies": {
     "rollup": "^1.12.3",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.0.0",
+    "rollup-plugin-scss": "^1.0.1",
     "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.0.0",
     "svelte": "^3.4.2"
   },
   "keywords": [
@@ -19,11 +24,14 @@
   "files": [
     "src",
     "index.mjs",
-    "index.js"
+    "index.js",
+    "index.mjs.css"
   ],
   "description": "*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*",
-  "version": "1.0.0",
-  "dependencies": {},
+  "version": "1.0.2",
+  "dependencies": {
+    "@material/fab": "^2.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/httpsOmkar/svelte-scrollable-component.git"
