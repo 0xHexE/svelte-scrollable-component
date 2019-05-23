@@ -2,6 +2,8 @@
 
 ---
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/httpsOmkar/svelte-scrollable-component.svg)](https://greenkeeper.io/)
+
 # component-template
 
 A base for building shareable Svelte components. Clone it with [degit](https://github.com/Rich-Harris/degit):
