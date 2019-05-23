@@ -2,15 +2,16 @@
   "name": "SvelteComponent",
   "svelte": "src/index.html",
   "module": "index.mjs",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "rollup": "^0.67.4",
-    "rollup-plugin-svelte": "^4.4.0",
-    "svelte": "^2.15.3"
+    "rollup": "^1.12.3",
+    "rollup-plugin-svelte": "^5.0.3",
+    "svelte": "^3.4.2"
   },
   "keywords": [
     "svelte"
@@ -19,5 +20,17 @@
     "src",
     "index.mjs",
     "index.js"
-  ]
+  ],
+  "description": "*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*",
+  "version": "1.0.0",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/httpsOmkar/svelte-scrollable-component.git"
+  },
+  "author": "Omkar Yadav <httpsOmkar@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/httpsOmkar/svelte-scrollable-component/issues"
+  },
+  "homepage": "https://github.com/httpsOmkar/svelte-scrollable-component#readme"
 }
